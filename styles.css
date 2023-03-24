@@ -1,26 +1,42 @@
 body{
-    background-color: #1E1E1E;
+    background-color:#1E1E1E;
     padding: 0;
     margin: 0;
-    display: flex;
+    box-sizing: border-box;
 }
 
 .card-container{
-    background-color:aliceblue;
-    padding: 0px;
-    color:#1E1E1E;
     width: 329px;
-    height: 100px; 
+    height: 164px;
+    left: -165px;
+    margin: 283px auto;
+    border-radius: 15px;
 }
 
-.note-coantainer{
-    background-color: gray;
+.note-container{
+    background-color:black;
     margin: 0;
     padding: 0;
     color: azure;
+    height: 40px;
+}
+
+.note-container p{
+    margin: 0;
+    padding: 0;
 }
 
 .info-container{
     background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+
+.date{
+    display: flex;
+}
+
+.details-container span{
+    
 }
 
